@@ -52,7 +52,7 @@ export default {
       this.$store.dispatch('app/toggleSideBar')
     },
     async logout() {
-      await this.$store.dispatch('user/logout')
+      await this.$store.dispatch('user/resetUser') // 重置用户信息
       this.$router.push(`/login?redirect=${this.$route.fullPath}`)
     }
   }
