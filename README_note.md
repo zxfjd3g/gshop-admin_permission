@@ -1,6 +1,6 @@
 # Vue后台admin--权限管理
 
-
+> 基础项目: https://github.com/PanJiaChen/vue-admin-template
 
 > 相关接口文档: http://39.99.186.36:8170/swagger-ui.html
 
